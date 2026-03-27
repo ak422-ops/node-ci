@@ -46,10 +46,10 @@ docker build -t <your-dockerhub-username>/demo-app .
 ### Run Container
 
 ```
-docker run -p 3000:3000 <your-dockerhub-username>/demo-app
+docker run -p 3003:3003 <your-dockerhub-username>/demo-app
 ```
 
-Access the app at: http://localhost:3000
+Access the app at: http://localhost:3003
 
 ---
 
