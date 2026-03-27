@@ -21,7 +21,7 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
       
       - name: Build Image
-        run: docker docker build -t ${{ secrets.DOCKER_USERNAME }}/ak-node:latest .
+        run: docker build -t ${{ secrets.DOCKER_USERNAME }}/ak-node:latest .
 
       - name: Push image
         run: docker push ${{ secrets.DOCKER_USERNAME }}/ak-node:latest
